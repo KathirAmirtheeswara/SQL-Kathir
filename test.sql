@@ -33,6 +33,7 @@ call insertemp(9, 'bob','IT',85000,'chicago');
 
 
 
+
 delimiter $$
 create procedure updatesdepartment(in edepartment varchar(20), in newdepartment varchar(20), out message varchar(50))
 begin
